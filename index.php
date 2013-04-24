@@ -2,9 +2,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Travel Labs</title>
-<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
 <link rel="icon" type="image/png" href="favicon.png">
-<script src="assets/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -25,63 +25,33 @@
         $("#title").hide();
         $("#title").fadeIn("slow");
         
-        //Links
-        
-        $("#home_link").click(function() {
-            window.location = "index.php";
-        });
-        
-        $("#mission_link").click(function() {
-            $("#container").load("pages/mission.php");
-            window.location.hash = "mission";
-        });
-        
-        $("#vision_link").click(function() {
-            $("#container").load("pages/vision.php");
-            window.location.hash = "vision";
-        });
-        
-        $("#team_link").click(function() {
-            $("#container").load("pages/team.php");
-            window.location.hash = "team";
-        });
-        
         //Email
         
         $("#email_submit").click(function() {
         var email = $("#email_field").val();
         	if ((email.length != 0) && (email.indexOf("@") !== -1)) {
             $.get('service/email_siphon.php', {addy: email}, "json");
-            $("#response").text("The email address "+email+" has been submitted. Thank you for opening up the world with us.");
+            $("#response").text("The email address "+email+" has been submitted.");
             $("#email_field").val("");
-            
             }
             else $("#response").text("That email address is invalid. Please try again.")
         });
-
-        
     });
 </script>
 </head>
 <body>
     <div id="wrapper">
-        <div id="menu">
-            <ul>
-                <li id="home_link">Home</li>
-                <li id="mission_link">Mission</li>
-                <li id="team_link">Team</li>
-                <!a href="http://travellabs.co/blog" target="_blank"--><!--li id="blog_link">Blog</li></a-->
-            </ul>
-        </div>
         <div id="container">
-            <div id="title"></div>
-            <div id="pics">
+            <div id="logo"></div>
+            <div id="headline">
+	            <span>Bringing all the world's</span><br />
+	            <span>experiences></span>
+	            <span>into one place.</span>
             </div>
-            <!--div id="blurb">
-            <p>Redefining the way you discover and experience travel.</p>
-            </div-->
-            <div id="thevideo" style="margin: 20px auto;text-align:center">
-                <iframe style="box-shadow: 0px 0px 5px black;" src="http://player.vimeo.com/video/63291615" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <div id="subtext">
+	            <span>GoBoldly allows you to discover, book, and share curated travel experiences
+		            <br /> aligned with your passions and interests.</span><br /><br />
+	            <span>Sign up now to receive updates and an invitation to our private beta.</span>
             </div>
             <div id="email_box">
             <p id="email_blurb">Enter your email address to receive updates.</p>
@@ -92,7 +62,6 @@
         </div>
         <div id="response"></div>
     </div>
-
         </div>
     </div>
  </body>
