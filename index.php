@@ -61,7 +61,7 @@
           </div>
         </div>
         <div id="footer">
-	        <span>© 2013 GoBoldly. All rights reserved.</span>
+	        <span>&copy; 2013 GoBoldly. All rights reserved.</span>
         </div>
     </div>
  </body>

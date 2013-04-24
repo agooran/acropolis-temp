@@ -35,7 +35,20 @@ body {
 
 #container {
 	margin: 0 auto;
+	padding-top: 50px;
 }
+
+
+#logo {
+	width: 412px;
+	height: 159px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	text-align: center;
+	background-image: url("img/logo.png");
+	background-repeat: no-repeat;
+}
+
 
 #headline {
 	margin: 0 auto;
@@ -57,15 +70,6 @@ body {
 	font-family: Lato-Italic;
 	font-size: 25px;
 	color: white;
-}
-
-#logo {
-	width: 412px;
-	height: 159px;
-	margin: 50px auto;
-	text-align: center;
-	background-image: url("img/logo.png");
-	background-repeat: no-repeat;
 }
 
 #email_box {
