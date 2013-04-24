@@ -27,9 +27,12 @@
         
         //Email
         
-        $("#email_submit").click(function() {
         var email = $("#email_field").val();
-        if (email == "Email Address") $("#email_field").val("");
+        $("#email_field").onmousedown(function() {
+            if (email == "Email Address") $("#email_field").val("");
+        });
+        $("#email_submit").click(function() {
+        
         	if ((email.length != 0) && (email.indexOf("@") !== -1)) {
             $.get('service/email.php', {email: email}, "json");
             $("#response").text("The email address "+email+" has been submitted.");
