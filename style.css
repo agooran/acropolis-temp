@@ -1,12 +1,18 @@
 @font-face
 	{
-		font-family: ExoBold;
+		font-family: Exo-Bold;
 		src: url('fonts/Exo-Bold.otf'),
 		}
 		
 @font-face
 	{
-		font-family: LatoIta;
+		font-family: Lato-Italic;
+		src: url('fonts/Lato-Italic.ttf'),
+		}
+		
+@font-face
+	{
+		font-family: Exo-Regular;
 		src: url('fonts/Lato-Italic.ttf'),
 		}
 
@@ -32,9 +38,12 @@ body {
 }
 
 #headline {
+	margin: 0 auto;
+	text-align: center;
 	font-family: Exo-Bold;
 	font-size: 60px;
 	color: white;
+	
 }
 
 #highlight {
@@ -42,7 +51,10 @@ body {
 }
 
 #subtext {
-	font-family: LatoIta;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+	font-family: Lato-Italic;
 	font-size: 25px;
 	color: white;
 }
@@ -54,6 +66,14 @@ body {
 	text-align: center;
 	background-image: url("img/logo.png");
 	background-repeat: no-repeat;
+}
+
+#email_field {
+	width: 400px;
+	height: 47px;
+	color: #4288b9;
+	font-size: 18px;
+	font-family: Exo-Regular;
 }
 
 #email_submit {
