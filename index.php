@@ -27,7 +27,7 @@
         
         //Email
         
-        $("#email_field").onmousedown(function() {
+        $("#email_field").click(function() {
             if (this.val() == "Email Address") this.val("");
         });
         
