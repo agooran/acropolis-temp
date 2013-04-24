@@ -11,5 +11,5 @@ mysql_connect('localhost',$username,$password);
 $email = $_GET["email"];
 $email = mysql_real_escape_string($email);
 
-mysql_query("INSERT INTO `email` (email) VALUES ('$email')")
+mysql_query("INSERT INTO `goboldly-emails` (email) VALUES ('$email')")
 ?>
