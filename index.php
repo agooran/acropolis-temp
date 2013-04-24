@@ -28,7 +28,7 @@
         //Email
         
         $("#email_field").click(function() {
-            if (this.val() == "Email Address") this.val("");
+            if ($(this).val() == "Email Address") $(this).val("");
         });
         
         $("#email_submit").click(function() {
@@ -49,7 +49,7 @@
             <div id="logo"></div>
             <div id="headline">
 	            <span>Bringing all the world's</span><br />
-	            <span>experiences</span>
+	            <span>travel experiences</span><br />
 	            <span id="highlight">into one place.</span>
             </div>
             <div id="subtext">
