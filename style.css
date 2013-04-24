@@ -1,0 +1,64 @@
+@font-face
+	{
+		font-family: ExoBold;
+		src: url('fonts/Exo-Bold.otf'),
+		}
+		
+@font-face
+	{
+		font-family: LatoIta;
+		src: url('fonts/Lato-Italic.ttf'),
+		}
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	background-image: url("img/bkgd.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+#headline {
+	font-family: Exo-Bold;
+	font-size: 60px;
+	color: white;
+}
+
+#highlight {
+	color: #28d1a4;
+}
+
+#subtext {
+	font-family: LatoIta;
+	font-size: 25px;
+	color: white;
+}
+
+#logo {
+	width: 412px;
+	height: 159px;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url("img/logo.png");
+	background-repeat: no-repeat;
+}
+
+#email_submit {
+	width: 166px;
+	height: 47px;
+	background-image: url("img/submit.jpg");
+	background-repeat: no-repeat;
+}

@@ -45,8 +45,8 @@
             <div id="logo"></div>
             <div id="headline">
 	            <span>Bringing all the world's</span><br />
-	            <span>experiences></span>
-	            <span>into one place.</span>
+	            <span>experiences</span>
+	            <span id="highlight">into one place.</span>
             </div>
             <div id="subtext">
 	            <span>GoBoldly allows you to discover, book, and share curated travel experiences
@@ -58,7 +58,7 @@
             <div id="email_entry">
                 <input type="text" id="email_field">
             </div>
-            <div id="email_submit">Submit</div>
+            <div id="email_submit"></div>
         </div>
         <div id="response"></div>
     </div>
