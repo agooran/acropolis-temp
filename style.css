@@ -62,15 +62,14 @@ body {
 #logo {
 	width: 412px;
 	height: 159px;
-	margin: 0 auto;
-	margin-top: 50px;
+	margin: 50px auto;
 	text-align: center;
 	background-image: url("img/logo.png");
 	background-repeat: no-repeat;
 }
 
 #email_box {
-	width: 566px;
+	width: 591px;
 	height: 50px;
 	margin: 0 auto;
 }
@@ -78,6 +77,7 @@ body {
 #email_field {
 	width: 400px;
 	height: 47px;
+	margin-right: 25px;
 	color: #4288b9;
 	font-size: 18px;
 	font-family: Lato-Regular;
@@ -90,4 +90,28 @@ body {
 	background-image: url("img/submit.jpg");
 	background-repeat: no-repeat;
 	float: left;
+}
+
+#response {
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+	font-family: Lato-Regular;
+	font-size: 20px;
+	color: white;
+}
+
+#footer {
+	width: 100%;
+	height: 16px;
+	background-color: #28d1a4;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#footer span {
+
+	font-family: Lato-Regular;
+	font-size: 13px;
+	color: white;
 }

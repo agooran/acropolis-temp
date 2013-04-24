@@ -1,7 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Travel Labs</title>
+<title>GoBold.ly</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link rel="icon" type="image/png" href="favicon.png">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -55,10 +55,13 @@
             </div>
             <div id="email_box">
                 <input type="text" id="email_field" value="Email Address">
-            <div id="email_submit"></div>
+                <div id="email_submit"></div>
+            </div>
+            <div id="response"></div>
+          </div>
         </div>
-        <div id="response"></div>
-    </div>
+        <div id="footer">
+	        <span>© 2013 GoBoldly. All rights reserved.</span>
         </div>
     </div>
  </body>
