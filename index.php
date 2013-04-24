@@ -49,8 +49,6 @@
 	            <span id="highlight">into one place.</span>
             </div>
             <div id="subtext">
-	            <span>GoBoldly allows you to discover, book, and share curated travel experiences
-		            <br /> aligned with your passions and interests.</span><br /><br />
 	            <span>Sign up now to receive updates and an invitation to our private beta.</span>
             </div>
             <div id="email_box">
