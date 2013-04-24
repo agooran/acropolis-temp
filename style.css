@@ -12,8 +12,8 @@
 		
 @font-face
 	{
-		font-family: Exo-Regular;
-		src: url('fonts/Lato-Italic.ttf'),
+		font-family: Lato-Regular;
+		src: url('fonts/Lato-Regular.ttf'),
 		}
 
 * {
@@ -24,7 +24,7 @@
 
 body {
 	background-image: url("img/bkgd.jpg");
-	background-position: center center;
+	background-position: center top;
 	background-attachment: fixed;
 }
 
@@ -52,7 +52,7 @@ body {
 
 #subtext {
 	margin: 0 auto;
-	padding-top: 50px;
+	padding: 50px;
 	text-align: center;
 	font-family: Lato-Italic;
 	font-size: 25px;
@@ -63,9 +63,16 @@ body {
 	width: 412px;
 	height: 159px;
 	margin: 0 auto;
+	margin-top: 50px;
 	text-align: center;
 	background-image: url("img/logo.png");
 	background-repeat: no-repeat;
+}
+
+#email_box {
+	width: 566px;
+	height: 50px;
+	margin: 0 auto;
 }
 
 #email_field {
@@ -73,7 +80,8 @@ body {
 	height: 47px;
 	color: #4288b9;
 	font-size: 18px;
-	font-family: Exo-Regular;
+	font-family: Lato-Regular;
+	float: left;
 }
 
 #email_submit {
@@ -81,4 +89,5 @@ body {
 	height: 47px;
 	background-image: url("img/submit.jpg");
 	background-repeat: no-repeat;
+	float: left;
 }

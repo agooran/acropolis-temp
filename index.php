@@ -54,7 +54,7 @@
 	            <span>Sign up now to receive updates and an invitation to our private beta.</span>
             </div>
             <div id="email_box">
-                <input type="text" id="email_field">
+                <input type="text" id="email_field" value="Email Address">
             <div id="email_submit"></div>
         </div>
         <div id="response"></div>
