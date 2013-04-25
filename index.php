@@ -30,7 +30,7 @@
         $("#email_submit").click(function() {
         var email = $("#email_field").val();
         	if ((email.length != 0) && (email.indexOf("@") !== -1)) {
-            $.get('service/email_siphon.php', {addy: email}, "json");
+            $.get('email_siphon.php', {addy: email}, "json");
             $("#response").text("The email address "+email+" has been submitted.");
             $("#email_field").val("");
             }
