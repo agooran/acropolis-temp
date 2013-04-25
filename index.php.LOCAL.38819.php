@@ -27,12 +27,8 @@
         
         //Email
         
-        $("#email_field").click(function() {
-            if ($(this).val() == "Email Address") $(this).val("");
-        });
-        
         $("#email_submit").click(function() {
-            var email = $("#email_field").val();
+        var email = $("#email_field").val();
         	if ((email.length != 0) && (email.indexOf("@") !== -1)) {
             $.get('email_siphon.php', {addy: email}, "json");
             $("#response").text("The email address "+email+" has been submitted.");
@@ -49,10 +45,12 @@
             <div id="logo"></div>
             <div id="headline">
 	            <span>Bringing all the world's</span><br />
-	            <span>travel experiences</span><br />
+	            <span>experiences</span>
 	            <span id="highlight">into one place.</span>
             </div>
             <div id="subtext">
+	            <span>GoBoldly allows you to discover, book, and share curated travel experiences
+		            <br /> aligned with your passions and interests.</span><br /><br />
 	            <span>Sign up now to receive updates and an invitation to our private beta.</span>
             </div>
             <div id="email_box">

@@ -34,11 +34,11 @@
         $("#email_submit").click(function() {
             var email = $("#email_field").val();
         	if ((email.length != 0) && (email.indexOf("@") !== -1)) {
-            $.get('email_siphon.php', {addy: email}, "json");
-            $("#response").text("The email address "+email+" has been submitted.");
-            $("#email_field").val("");
-            }
-            else $("#response").text("That email address is invalid. Please try again.")
+                $.get('service/email.php', {email: email}, "json");
+                $("#response").text("The email address "+email+" has been submitted.");
+                $("#email_field").val("");
+                }
+                else $("#response").text("That email address is invalid. Please try again.")
         });
     });
 </script>

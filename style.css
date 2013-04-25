@@ -1,20 +1,26 @@
-@font-face
-	{
-		font-family: Exo-Bold;
-		src: url('fonts/Exo-Bold.otf'),
-		}
+@font-face {
+   font-family: "Exo-Bold";
+   src: url("fonts/Exo-Bold.eot"); 
+   src: url("fonts/Exo-Bold.ttf") format("truetype"),
+     url("fonts/Exo-Bold.otf") format("opentype"), 
+     url("fonts/Exo-Regular.svg#Exo-Regular") format("svg");
+}
 		
-@font-face
-	{
-		font-family: Lato-Italic;
-		src: url('fonts/Lato-Italic.ttf'),
-		}
+@font-face {
+   font-family: "Lato-Italic";
+   src: url("fonts/Lato-Regular.eot"); 
+   src: url("fonts/Lato-Italic.ttf") format("truetype"),
+     url("fonts/Lato-Italic.otf") format("opentype"), 
+     url("fonts/Lato-Italic.svg#Lato-Italic") format("svg");
+}
 		
-@font-face
-	{
-		font-family: Lato-Regular;
-		src: url('fonts/Lato-Regular.ttf'),
-		}
+@font-face {
+   font-family: "Lato-Regular";
+   src: url("fonts/Lato-Regular.eot"); 
+   src: url("fonts/Lato-Regular.ttf") format("truetype"),
+     url("fonts/Lato-Regular.otf") format("opentype"), 
+     url("fonts/Lato-Regular.svg#Lato-Regular") format("svg");
+}
 
 * {
 	margin: 0;
@@ -35,7 +41,7 @@ body {
 
 #container {
 	margin: 0 auto;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 
@@ -43,7 +49,7 @@ body {
 	width: 412px;
 	height: 159px;
 	margin: 0 auto;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 	text-align: center;
 	background-image: url("img/logo.png");
 	background-repeat: no-repeat;
@@ -54,7 +60,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	font-family: Exo-Bold;
-	font-size: 60px;
+	font-size: 40px;
 	color: white;
 	
 }
@@ -65,10 +71,10 @@ body {
 
 #subtext {
 	margin: 0 auto;
-	padding: 50px;
+	padding: 30px 0;
 	text-align: center;
-	font-family: Lato-Italic;
-	font-size: 25px;
+	font-family: Lato-Regular;
+	font-size: 18px;
 	color: white;
 }
 
@@ -99,9 +105,10 @@ body {
 
 #response {
 	margin: 0 auto;
+	padding-top: 20px;
 	text-align: center;
 	font-family: Lato-Regular;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 }
 
