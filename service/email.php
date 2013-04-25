@@ -13,5 +13,5 @@ if (!$db) {
 }
 
 $email = $_GET["email"];
-$result = pg_query($db, "INSERT INTO emails (address) VALUES ('$email')" );
+pg_query($db, "INSERT INTO emails (address) VALUES ('$email')";
 ?>
