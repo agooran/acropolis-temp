@@ -18,3 +18,5 @@ $result = pg_query($db, "INSERT INTO temp.emails (address) VALUES ('$email')";
 if (!$result) die("Error in SQL query: " . pg_last_error());
 echo "Data successfully inserted!";
 ?>
+
+Hello World.
