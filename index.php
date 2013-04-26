@@ -34,7 +34,7 @@
         $("#email_submit").click(function() {
             var email = $("#email_field").val();
         	if ((email.length != 0) && (email.indexOf("@") !== -1)) {
-            $.get('email.php', {email: email}, "json");
+            $.get('service/email.php', {email: email}, "json");
             $("#response").text("The email address "+email+" has been submitted.");
             $("#email_field").val("");
             }
