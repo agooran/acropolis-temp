@@ -5,6 +5,14 @@
      url("fonts/Exo-Bold.otf") format("opentype"), 
      url("fonts/Exo-Regular.svg#Exo-Regular") format("svg");
 }
+
+@font-face {
+   font-family: "Exo-Regular";
+   src: url("fonts/Exo-Regular.eot"); 
+   src: url("fonts/Exo-Regular.ttf") format("truetype"),
+     url("fonts/Exo-Regular.otf") format("opentype"), 
+     url("fonts/Exo-Regular.svg#Exo-Regular") format("svg");
+}
 		
 @font-face {
    font-family: "Lato-Italic";
@@ -20,6 +28,14 @@
    src: url("fonts/Lato-Regular.ttf") format("truetype"),
      url("fonts/Lato-Regular.otf") format("opentype"), 
      url("fonts/Lato-Regular.svg#Lato-Regular") format("svg");
+}
+
+@font-face {
+   font-family: "HelveticaNeue-Light";
+   src: url("fonts/HelveticaNeueLight.eot"); 
+   src: url("fonts/HelveticaNeueLight.ttf") format("truetype"),
+     url("fonts/HelveticaNeueLight.otf") format("opentype"), 
+     url("fonts/HelveticaNeueLight.svg#HelveticaNeueLight") format("svg");
 }
 
 * {
@@ -59,7 +75,7 @@ body {
 #headline {
 	margin: 0 auto;
 	text-align: center;
-	font-family: Exo-Bold;
+	font-family: Exo-Regular;
 	font-size: 40px;
 	color: white;
 	
@@ -76,6 +92,7 @@ body {
 	font-family: Lato-Regular;
 	font-size: 18px;
 	color: white;
+	font-style:italic;
 }
 
 #email_box {
@@ -90,7 +107,7 @@ body {
 	margin-right: 25px;
 	color: #4288b9;
 	font-size: 18px;
-	font-family: Lato-Regular;
+	font-family: HelveticaNeue-Light;
 	float: left;
 }
 
