@@ -45,6 +45,7 @@
 }
 
 body {
+    background-color: #2285BE;
 	background-image: url("img/bkgd.jpg");
 	background-position: center top;
 	background-attachment: fixed;
