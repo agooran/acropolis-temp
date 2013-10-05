@@ -44,9 +44,9 @@
         <div id="container">
             <div id="logo"></div>
             <div id="headline">
-	            <span>Bringing all the world's</span><br />
-	            <span>travel experiences</span><br />
-	            <span id="highlight">into one place.</span>
+	            <span>Connecting People.</span><br />
+	            <span>Connecting Passions.</span><br />
+	            <span id="highlight">Connecting Communities.</span>
             </div>
             <div id="subtext">
 	            <span>Sign up now to receive updates and an invitation to our private beta.</span>
