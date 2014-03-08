@@ -1,0 +1,184 @@
+body,  html {
+	width: 320px;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+/* Header */
+
+.header {
+	min-width: 0;
+	text-align: center;
+}
+
+.header #logo {
+	left: inherit;
+	position: relative;
+}
+
+.header ul {
+	position: static;
+	right: 0;
+}
+
+.header ul.inline {
+	display: none;
+}
+
+.header ul.inline li {
+	display: block;	
+	width: 100%;
+/*	height: 30px;*/
+	padding: 6px 0;
+	text-align: center;
+	margin-bottom: 1px;
+	background-color: rgba(0,0,0,0.4);
+	line-height: auto;
+}
+
+.header ul.inline a {
+	color: white;
+	text-decoration: none;
+}
+
+.social{
+	display: none;
+}
+
+/* Hero */
+
+#hero {
+	/*height: 240px !important;*/
+}
+
+#hero .hero-title {
+	width: auto;
+	left: auto;
+	bottom: 0px;
+	margin: auto;
+	font-size: 24px;
+	font-weight: 300;
+	background-size: 170% auto;
+	webkit-background-size: 170% auto;
+	moz-background-size: 170% auto;
+	o-background-size: 170% auto;
+	/*top: 100px;*/
+}
+
+#hero .sub-hero {
+	display: none;
+}
+
+/* Technology */
+
+#technology {
+	background-position: 0px 920px;
+	height: auto;
+}
+
+#technology .top, #technology .bottom  {
+	width: auto;
+	margin: 10px;
+}
+
+#technology .demo {
+	position: relative;
+	right: auto;
+	top: -20px;
+	left: 10px;
+	height: auto;
+}
+
+#technology .demo .pagination {
+	position: relative;
+	top: auto;
+	left: 20px;
+	right: auto;
+	bottom: 10px;
+}
+
+img#slide0, img#slide1, #slide2, #slide3, #slide4, #slide5, #slide6 {
+	width: 45%;
+}
+
+/* Mission */ 
+
+#mission .container {
+	width: auto;
+	height: 100%;
+	padding: 0px;
+	margin-top: 20px;
+}
+
+#mission .container h2 {
+	padding-top: 0px;
+}
+
+#mission .container p, #mission .container h2 {
+	width: auto;
+	padding: 10px;
+}
+
+#mission #kiss {
+	/*margin: 50% auto;*/
+	text-align: center;
+	width: 100%;
+	display: block;
+	position: relative;
+	top: -20px;
+}
+
+/* FAQ */
+
+#faq {
+	padding: 0 10px;
+	margin-top: 100px;
+}
+
+/* Contact */
+
+#contact {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+#contact #map_canvas {
+	display: none;
+}
+
+#contact .form {
+	width: auto;
+	height: auto;
+	padding: 5px;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 10px;
+}
+
+#mission h1, #team h1, #faq h1, #contact h1 {
+	margin: 20px 5px; 
+}
+
+#contact #email {
+	padding-right: 0px;
+	border-right: none;
+	margin-right: 0px;
+}
+
+#contact .form form input[type="text"], #contact .form form input[type="email"], #contact .form form textarea {
+	width: 60%;
+}
+
+#footer {
+	display: none;
+}
