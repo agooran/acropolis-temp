@@ -1,5 +1,5 @@
 <?php
-define("ZDAPIKEY", "9m4xg7JDAsyQbEoF8SBjearozQcduyvTXieC3hQt");
+define("ZDAPIKEY", "iEF6eYtbTNJE3QfSoNl1y0s28zAFYNRuEIHRENKM");
 define("ZDUSER", "agooran@gmail.com");
 define("ZDURL", "https://goboldly.zendesk.com");
 
@@ -35,7 +35,7 @@ $return = curlWrap("/tickets.json", $create);
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--<meta http-equiv="refresh" content="1;url=http://www.organizer.com">-->
+<!--<meta http-equiv="refresh" content="1;url=http://www.gobold.ly">-->
 <title>Go Boldly</title>
  
 </head>
