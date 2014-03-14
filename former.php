@@ -1,7 +1,7 @@
 <?php
 define("ZDAPIKEY", "bpNhsnknWu2cljHnbjTExmIAqJ9jqhHh80kokmlo");
-define("ZDUSER", "zendesk@electionear.com");
-define("ZDURL", "https://organizer.zendesk.com/api/v2");
+define("ZDUSER", "agooran@gmail.com");
+define("ZDURL", "https://goboldly.zendesk.com");
 
 function curlWrap($url, $json)
 {
@@ -36,11 +36,11 @@ $return = curlWrap("/tickets.json", $create);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!--<meta http-equiv="refresh" content="1;url=http://www.organizer.com">-->
-<title>Organizer</title>
+<title>Go Boldly</title>
  
 </head>
  
 <body>
-Success! Message Sent!
+Thanks! Your Message HasSent!
 </body>
 </html>
