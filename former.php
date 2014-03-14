@@ -1,5 +1,5 @@
 <?php
-define("ZDAPIKEY", "bpNhsnknWu2cljHnbjTExmIAqJ9jqhHh80kokmlo");
+define("ZDAPIKEY", "9m4xg7JDAsyQbEoF8SBjearozQcduyvTXieC3hQt");
 define("ZDUSER", "agooran@gmail.com");
 define("ZDURL", "https://goboldly.zendesk.com");
 
